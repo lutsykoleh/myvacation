@@ -2,34 +2,13 @@
 
 #page-title { text-align:  left } 
 
-#page-title .page-title {
-  text-transform: uppercase;
-}
-#page-title .page-title {
-  font-weight: bold;
-}
 #page-title .page-title { height:  120px } 
 
 .page-title-full-width-container:after { opacity:  1 } 
 
 .page-title-full-width-container:after { background-position: center center; }
 
-.form-save-default-button.workflow-button-need-review.button.button--primary.js-form-submit.form-submit {
-  display: none;
-}
-.wrap-containers .region-highlighted .block-system-menu-blockvacation .menu--vacation {
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-}
-.block-views-blockuser-day-of-bonus-vacation-block-1, .block-views-blockuser-day-of-vacation-block-1{
-line-height: 100px;
-text-transform: uppercase;
-margin-left:10px;
-}
-.view-id-user_day_of_vacation view-display-id-block_1 .view-empty{
- display:flex;
-}.dxpr-theme-boxed-container { background: #ffffff; }
+.dxpr-theme-boxed-container { background: #ffffff; }
 
 .dxpr-theme-boxed-container .nav-tabs >li.active a { border-bottom-color: #ffffff; }
 
@@ -95,7 +74,7 @@ body { background-attachment: fixed; }
   #dxpr-theme-main-menu,
   #dxpr-theme-main-menu .menu__breadcrumbs,
   #dxpr-theme-main-menu .menu__level {
-    text-align: center;
+    text-align: left;
   }
 .dxpr-theme-header--side .dxpr-theme-main-menu {
   width: 300px;
@@ -139,6 +118,12 @@ body { background-attachment: fixed; }
 .body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .nav-child-fixed-width {
   top: 50;
 }
+.body--dxpr-theme-nav-desktop.body--dxpr-theme-header-fixed.body--dxpr-theme-header-not-overlay { padding-top: 100px !important }
+
+  html.js .body--dxpr-theme-nav-desktop.toolbar-fixed.toolbar-horizontal.body--dxpr-theme-header-fixed.body--dxpr-theme-header-not-overlay { padding-top: 139px !important }
+
+  html.js .body--dxpr-theme-nav-desktop.toolbar-fixed.toolbar-horizontal.toolbar-tray-open.toolbar-horizontal.body--dxpr-theme-header-fixed.body--dxpr-theme-header-not-overlay { padding-top: 180px !important }
+
 .body--dxpr-theme-nav-mobile .dxpr-theme-header .navbar-header .wrap-branding,
 .body--dxpr-theme-nav-mobile .dxpr-theme-header .navbar-toggle {
   height: 60px;
@@ -195,27 +180,6 @@ blockquote, blockquote p {
   font-weight: 300;
   font-style: italic;
 }
-
-.region-sidebar-first .block, .region-sidebar-second .block, .region-content-top .block, .region-content-bottom .block, .blocks-preview .block {
-  border-width: 0px;
-  border-style: none;
-  border-radius: 0px;
-} 
-
-.region-sidebar-first .block-title, .region-sidebar-second .block-title, .region-content-top .block-title, .region-content-bottom .block-title, .blocks-preview .block-title {
-  font-size: 29px;
-  text-align: left;
-  border-width: 0px;
-  border-style: none;
-  border-radius: 0px;
-  display: block;
-  padding:  10px; 
-  background-color:  #3c3c3c; 
-} 
-
-@media screen and (max-width: 768px) { 
-  .region-sidebar-first .block-title, .region-sidebar-second .block-title, .region-content-top .block-title, .region-content-bottom .block-title, .blocks-preview .block-title { font-size: 29px; } 
-} 
 
 body, p, .lead { line-height:  1.6 } 
 body { font-size:  16px } 
