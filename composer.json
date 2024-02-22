@@ -30,6 +30,7 @@
         "drupal/tamper": "^1.0@alpha",
         "drupal/token": "^1.13",
         "drupal/views_aggregator": "^2.0",
+        "drupal/views_contextual_filters_or": "^1.4",
         "drupal/workflow": "^1.7",
         "drush/drush": "^11.4"
     },
