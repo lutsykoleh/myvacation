@@ -8,6 +8,28 @@
 
 .page-title-full-width-container:after { background-position: center center; }
 
+.form-save-default-button.workflow-button-review.button.button--primary.js-form-submit.form-submit {
+    display: none;
+}
+
+.region-navigation-collapsible .block-views-blockbalance-bonus-block-1 .view-id-balance_bonus {
+    line-height: 100px;
+}
+
+.region-navigation-collapsible .block-views-blockbalance-bonus-block-1 .view-id-balance_bonus .views-field-field-day-of-bvacation {
+    display: flex;
+    text-transform:uppercase;
+}
+
+.region-navigation-collapsible .block-views-blockbalance-block-1 .view-id-balance{
+line-height:100px;
+padding-right:20px;
+}
+.region-navigation-collapsible .block-views-blockbalance-block-1 .view-id-balance .views-field-field-test12{
+ display:flex;
+ text-transform:uppercase;
+}
+
 .dxpr-theme-boxed-container { background: #ffffff; }
 
 .dxpr-theme-boxed-container .nav-tabs >li.active a { border-bottom-color: #ffffff; }
