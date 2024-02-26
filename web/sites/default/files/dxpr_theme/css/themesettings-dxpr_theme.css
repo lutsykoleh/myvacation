@@ -30,6 +30,13 @@ padding-right:20px;
  text-transform:uppercase;
 }
 
+.block-system-menu-blockvacation-menu .menu--vacation-menu {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+
 .dxpr-theme-boxed-container { background: #ffffff; }
 
 .dxpr-theme-boxed-container .nav-tabs >li.active a { border-bottom-color: #ffffff; }
@@ -140,12 +147,6 @@ body { background-attachment: fixed; }
 .body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .nav-child-fixed-width {
   top: 50;
 }
-.body--dxpr-theme-nav-desktop.body--dxpr-theme-header-fixed.body--dxpr-theme-header-not-overlay { padding-top: 100px !important }
-
-  html.js .body--dxpr-theme-nav-desktop.toolbar-fixed.toolbar-horizontal.body--dxpr-theme-header-fixed.body--dxpr-theme-header-not-overlay { padding-top: 139px !important }
-
-  html.js .body--dxpr-theme-nav-desktop.toolbar-fixed.toolbar-horizontal.toolbar-tray-open.toolbar-horizontal.body--dxpr-theme-header-fixed.body--dxpr-theme-header-not-overlay { padding-top: 180px !important }
-
 .body--dxpr-theme-nav-mobile .dxpr-theme-header .navbar-header .wrap-branding,
 .body--dxpr-theme-nav-mobile .dxpr-theme-header .navbar-toggle {
   height: 60px;
