@@ -36,7 +36,19 @@ padding-right:20px;
     justify-content: center;
 }
 
+.workflow-button-created.button.js-form-submit.form-submit.btn-success.btn {
+    display: none;
+}
+.button.form-save-default-button.workflow-button-created.js-form-submit.form-submit.btn-success.btn {
+    display: none;
+}
 
+.form-save-default-button.workflow-button--.button.button--primary.js-form-submit.form-submit.btn-primary.btn {
+    display: none;
+}
+.workflow-button--.button.js-form-submit.form-submit.btn-.btn {
+    display: none;
+}
 .dxpr-theme-boxed-container { background: #ffffff; }
 
 .dxpr-theme-boxed-container .nav-tabs >li.active a { border-bottom-color: #ffffff; }

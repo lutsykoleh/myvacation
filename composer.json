@@ -28,6 +28,7 @@
         "drupal/eca_tamper": "^1.0",
         "drupal/masquerade": "^2.0@RC",
         "drupal/redirect": "^1.9",
+        "drupal/simple_popup_views": "^1.2",
         "drupal/tamper": "^1.0@alpha",
         "drupal/token": "^1.13",
         "drupal/views_aggregator": "^2.0",
